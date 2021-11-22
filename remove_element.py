@@ -4,4 +4,4 @@ def even(x):
 
 a[:] = [x for x in a if not even(x)]
 
-print a
+print(*a, sep = ", ") 
