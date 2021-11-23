@@ -16,3 +16,17 @@ print(f'list values ad abs() function  {vec}')
 freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
 strip = [weapon.strip() for weapon in freshfruit]
 print(f'list strip space first&last  {strip}')
+
+# create a list of 2-tuples like (number, square)
+a=[(x, x**2) for x in range(6)]
+print(f'list number square  {a}')
+
+# flatten a list using a listcomp with two 'for'
+vec = [[1,2,3], [4,5,6], [7,8,9]]
+b=[num for elem in vec for num in elem]
+print(f'list flatten  {b}')
+
+#List comprehensions can contain complex expressions and nested functions:
+from math import pi
+c=[str(round(pi, i)) for i in range(0, 6)]
+print(f'{c}')
