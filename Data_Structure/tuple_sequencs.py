@@ -1,4 +1,6 @@
-#A tuple consists of a number of values separated by commas, for instance:
+# A tuple consists of a number of values separated by commas, for instance:
+## immutable type
+
 t = 12345, 54321, 'hello!'
 print(t[0])
 print(t)

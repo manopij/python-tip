@@ -5,7 +5,7 @@ for x in range(10):
 
 print(f'Squares old way {squares}')
 
-#Comprehension A
+#Comprehension A (concise and readable)
 squares = [x**2 for x in range(10)]
 print(f'Squares comprehensionA {squares}')
 
